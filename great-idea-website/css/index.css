@@ -75,25 +75,27 @@ h1, h2, h3, h4, h5 {
 
 
 /* --- NAVIGATION --- */
+.nav-container a{
+	text-decoration: none;
+	color:rgb(149, 149, 149);
+}
+
 .navigation{
 	text-align:center;
 	padding: 1%;
-	display:inline-block;
-	line-height: 3;
+	
 }
 
 nav{
-	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	word-spacing: 46px;
 	font-size: 12px;
 	margin-left: 32px;
 	padding: 20px;
 }
 
-nav > a{
-	text-decoration: none;
-	color:rgb(188, 188, 188);
-}
 
 .logo{
 	float:right;
@@ -110,9 +112,10 @@ nav > a{
 /* --- HEADER --- */
 
 .header{
-	display: inline-block;
+	display: flex;
+	justify-content: space-between;
 	width:100%;
-	padding: 5%;
+	padding-top: 75px;
 	text-align: center;
 	margin-left: 35px;
 }
@@ -137,8 +140,9 @@ nav > a{
 
 button{
 	border: 1px solid black;
-	padding: 5px 30px 5px 30px;
+	padding: 2px 50px 2px 50px;
 	background: white;
+	cursor: pointer;
 }
 
 
@@ -146,9 +150,7 @@ button{
 
 .about-page{
 	border-top: 1px solid black;
-	display:inline-block;
-	position: relative;
-	width: 100%;
+	display:flex;
 }
 
 .features{
@@ -183,7 +185,7 @@ button{
 
 .services-page{
 	border-bottom: 1px solid black;
-	display: inline-block;
+	display: flex;
 	position: relative;
 	width:100%
 }
@@ -210,6 +212,6 @@ button{
 footer{
 	padding:20px;
 	text-align: center;
-	font-size:10px;
+	font-size:15px;
 	margin-bottom: 70px;
 }
