@@ -49,12 +49,14 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	max-width: 800px;
+	margin:auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,4 +65,151 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
+
+
+
+
 /* Your code starts here! */
+
+
+/* --- NAVIGATION --- */
+.navigation{
+	text-align:center;
+	padding: 1%;
+	display:inline-block;
+	line-height: 3;
+}
+
+nav{
+	display: inline-block;
+	word-spacing: 46px;
+	font-size: 12px;
+	margin-left: 32px;
+	padding: 20px;
+}
+
+nav > a{
+	text-decoration: none;
+	color:rgb(188, 188, 188);
+}
+
+.logo{
+	float:right;
+	width:30%;
+}
+
+.logo img{
+	padding: 20px;
+	padding-top:0;
+	margin-left: 34px;
+	text-align: center;
+}
+
+/* --- HEADER --- */
+
+.header{
+	display: inline-block;
+	width:100%;
+	padding: 5%;
+	text-align: center;
+	margin-left: 35px;
+}
+
+.header-text{
+	width: auto;
+	text-align: center;
+	float: left;
+	font-size: 60px;
+}
+
+.header-text h1{
+	margin:0;
+}
+
+.header-img{
+	float: right;
+	margin-right: 30px;
+	top: -65px;
+	position: relative;
+}
+
+button{
+	border: 1px solid black;
+	padding: 5px 30px 5px 30px;
+	background: white;
+}
+
+
+/* --- FEATURES-ABOUT --- */
+
+.about-page{
+	border-top: 1px solid black;
+	display:inline-block;
+	position: relative;
+	width: 100%;
+}
+
+.features{
+	width:50%;
+	float:left;
+	padding: 10px;
+}
+
+.about{
+	width:50%;
+	float:right;
+	padding: 10px;
+}
+
+.about-page h3{
+	margin-top: 25px;
+}
+
+.about-page p{
+	margin-bottom: 25px;
+}
+
+.services-page{
+	border-bottom: 1px solid black;
+}
+
+.main-img img{
+	width: 100%;
+}
+
+/* --- SERVICES-PRODUCT --- */
+
+.services-page{
+	border-bottom: 1px solid black;
+	display: inline-block;
+	position: relative;
+	width:100%
+}
+
+.sub-services{
+	width:33.33%;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	float:right;
+	
+}
+
+
+/* --- SERVICES-PRODUCT --- */
+
+.contact{
+	padding-top: 20px;
+}
+
+.contact .p1{
+	padding-bottom: 20px;
+}
+
+footer{
+	padding:20px;
+	text-align: center;
+	font-size:10px;
+	margin-bottom: 70px;
+}
